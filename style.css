@@ -94,3 +94,40 @@ header nav ul li a {
     margin-top: 30px;
     height: 280px;
 }
+
+.info {
+    padding: 50px;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.info-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img img {
+    width: 147px;
+    border: 3px solid #3882f6;
+    height: 155px;
+    border-radius: 8px;
+}
+
+.img legend {
+    margin-top: 3px;
+    font-size: 14px;
+    width: 180px;
+    color: #1f2937; 
+    font-weight: 400;
+    text-transform: lowercase;
+    line-height: 17px;
+    width: 150px;
+    text-align: center;
+}
