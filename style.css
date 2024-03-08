@@ -80,7 +80,7 @@ header nav ul li a {
 .header-main-text button {
     border: none;
     background-color: #3882f6;
-    color: white;
+    color: #e5e7eb;
     padding: 10px;
     border-radius: 10px;
     font-weight: 600;
@@ -130,4 +130,81 @@ header nav ul li a {
     line-height: 17px;
     width: 150px;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px;
+    margin-top: 80px;
+}
+
+.quote h3 {
+    text-align: justify;
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: 200;
+    font-style: italic;
+    width: 800px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+.quote p {
+    text-align: right;
+    width: 1090px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+}
+
+.call-btn {
+    background-color: #3882f6;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 120px 300px;
+    padding: 40px;
+    width: 880px;
+    border-radius: 10px;
+}
+
+.call-text {
+    color: #e5e7eb;
+    line-height: 24px;
+}
+
+.call-text h3 {
+    letter-spacing: -0.2px;
+    font-weight: 600;
+}
+
+.call-text p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.call-btn button {
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    padding: 6px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    width: 120px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 40px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 400;
+    color: #E5E7EB;
+    font-size: 15px;
+    letter-spacing: 0.4px;
 }
